@@ -1,0 +1,86 @@
+# 環境変数ファイル
+*.env
+.env.*
+.env
+
+# APIキー・シークレット
+*api_key*
+*API_KEY*
+*secret*
+*SECRET*
+*credential*
+*CREDENTIAL*
+*password*
+*PASSWORD*
+*token*
+*TOKEN*
+*private_key*
+*PRIVATE_KEY*
+
+# 認証情報
+*auth*
+*AUTH*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# プライベートな設定ファイル
+config.local.*
+config.private.*
+settings.local.*
+settings.private.*
+
+# AWS関連
+*.aws*
+aws-credentials
+.aws/
+
+# Google Cloud関連
+*gcp*
+*google*credentials*
+service-account*.json
+
+# Azure関連
+*azure*credentials*
+*.azureauth
+
+# その他のクラウドサービス
+.netlify
+.vercel
+.firebase*
+
+# データベース関連
+*.db
+*.sqlite
+*.sqlite3
+database.yml
+database.json
+
+# ログファイル
+*.log
+logs/
+
+# IDE設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# 一時ファイル
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ビルド成果物
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
